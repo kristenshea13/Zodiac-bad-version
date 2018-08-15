@@ -15,8 +15,11 @@ namespace CG_6_5_Zodiac
             Console.WriteLine("What is your sign and horoscope?");
             Console.WriteLine();
             Console.Write("Please enter your birthdate (MM/DD/YYYY): ");
+            DateTime userBirthdate = DateTime.Parse(Console.ReadLine());
 
 
+            string zodiac1 = "Aries";
+            string zodiac2 = "Pisces";
 
 
 
@@ -24,5 +27,15 @@ namespace CG_6_5_Zodiac
 
             Console.ReadLine();
         }
+
+        private static string ZodiacSign();
+        {
+            
+        }
+
+
+
+
+
     }
 }
