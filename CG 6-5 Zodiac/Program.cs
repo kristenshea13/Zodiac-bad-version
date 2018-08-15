@@ -14,12 +14,19 @@ namespace CG_6_5_Zodiac
 
             Console.WriteLine("What is your sign and horoscope?");
             Console.WriteLine();
-            Console.Write("Please enter your birthdate (MM/DD/YYYY): ");
+            Console.Write("Please enter your date of birth (MM/DD/YYYY): ");
+ 
+
             DateTime userBirthdate = DateTime.Parse(Console.ReadLine());
+            string zodiacDay = userBirthdate.ToString("dd");
+            string zodiacMonth = userBirthdate.ToString("MMM");
 
 
-            string zodiac1 = "Aries";
-            string zodiac2 = "Pisces";
+            //Console.WriteLine(zodiacDay);
+
+
+            //string zodiac1 = "Aries";
+            //string zodiac2 = "Pisces";
 
 
 
@@ -28,9 +35,20 @@ namespace CG_6_5_Zodiac
             Console.ReadLine();
         }
 
-        private static string ZodiacSign();
+        private static string ZodiacSign(string zodiacDay);
         {
-            
+            if ()
+           {
+
+
+
+
+           }
+
+
+
+
+
         }
 
 
