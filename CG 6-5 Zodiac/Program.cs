@@ -12,21 +12,33 @@ namespace CG_6_5_Zodiac
              * Finally, display their zodiac symbol and a fake fortune for them.You can get the list of zodiac signs and dates, 
              * as well as a sample, from Bing to an external site.*/
 
-            Console.WriteLine("What is your sign and horoscope?");
+            Console.WriteLine("What is your Zodiac sign?");
             Console.WriteLine();
             Console.Write("Please enter your date of birth (MM/DD/YYYY): ");
- 
+
 
             DateTime userBirthdate = DateTime.Parse(Console.ReadLine());
+
             string zodiacDay = userBirthdate.ToString("dd");
             string zodiacMonth = userBirthdate.ToString("MMM");
 
 
-            //Console.WriteLine(zodiacDay);
 
 
-            //string zodiac1 = "Aries";
-            //string zodiac2 = "Pisces";
+            //string sign = 
+
+            if (sign = "Aries")
+                Console.WriteLine("Fortune: You will reconnect with an old friend this month.");
+            else if (sign = "Taurus")
+                Console.WriteLine("Fortune: You will trip over your own shoelace tomorrow.");
+            else if (sign = "Gemini")
+                Console.WriteLine("Fortune: You will find a worm in the next apple you eat.");
+            else if (sign = "Cancer")
+                
+            
+          
+
+
 
 
 
@@ -35,21 +47,22 @@ namespace CG_6_5_Zodiac
             Console.ReadLine();
         }
 
-        private static string ZodiacSign(string zodiacDay);
-        {
-            if ()
-           {
+        //private static string ZodiacSign(string zodiacMonth, string zodiacDay);
+        //{
+           
+            
+        
+        //// if (string zodiacMonth = "Mar" && string zodiacDay >= 21 || string zodiacMonth = "Apr" && string zodiacDay <= 19 )
+        //   //{
+        //   //     return = "Aries";
+
+        //   //}
 
 
 
 
-           }
 
-
-
-
-
-        }
+        //}
 
 
 
