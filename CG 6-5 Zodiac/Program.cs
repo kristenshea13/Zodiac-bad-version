@@ -18,6 +18,14 @@ namespace CG_6_5_Zodiac
 
 
             DateTime userBirthdate = DateTime.Parse(Console.ReadLine());
+            
+            Console.WriteLine("You were born on {0}.", userBirthdate.ToString("dddd"));
+
+
+            DateTime nextyearBDay = userBirthdate.AddYears(1);
+            Console.WriteLine("Your next birthday will be on {0}", );
+            
+
 
             string zodiacDay = userBirthdate.ToString("dd");
             string zodiacMonth = userBirthdate.ToString("MMM");
@@ -27,13 +35,13 @@ namespace CG_6_5_Zodiac
 
             //string sign = 
 
-            if (sign = "Aries")
-                Console.WriteLine("Fortune: You will reconnect with an old friend this month.");
-            else if (sign = "Taurus")
-                Console.WriteLine("Fortune: You will trip over your own shoelace tomorrow.");
-            else if (sign = "Gemini")
-                Console.WriteLine("Fortune: You will find a worm in the next apple you eat.");
-            else if (sign = "Cancer")
+            //if (sign = "Aries")
+            //    Console.WriteLine("Fortune: You will reconnect with an old friend this month.");
+            //else if (sign = "Taurus")
+            //    Console.WriteLine("Fortune: You will trip over your own shoelace tomorrow.");
+            //else if (sign = "Gemini")
+            //    Console.WriteLine("Fortune: You will find a worm in the next apple you eat.");
+            //else if (sign = "Cancer")
                 
             
           
