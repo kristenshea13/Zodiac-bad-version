@@ -22,6 +22,11 @@ namespace CG_6_5_Zodiac
             Console.WriteLine("You were born on {0}.", userBirthdate.ToString("dddd"));
 
             DateTime currentdate = DateTime.Now;
+
+            DateTime nextBDay = 
+            userBirthdate.Month
+            userBirthdate.Day
+            currentdate.Year
             
 
             //DateTime nextyearBDay = userBirthdate.AddYears();
