@@ -46,6 +46,8 @@ namespace CG_6_5_Zodiac
                 Console.WriteLine("Your next birthday will be on a {0}", nextBDdayofwk.ToString("dddd"));
             }
 
+            var birthMonth = userBirthdate.Month.ToString("MMM");
+            var birthDay = userBirthdate.Day;
 
 
 
@@ -57,13 +59,19 @@ namespace CG_6_5_Zodiac
             //else if (sign = "Gemini")
             //    Console.WriteLine("Fortune: You will find a worm in the next apple you eat.");
             //else if (sign = "Cancer")
+            //else if (sign = "Leo")
+            //else if (sign = "Virgo")
+            //else if (sign = "Libra")
+            //else if (sign = "Scorpio")
+            //else if (sign = "Sagittarius")
+            //else if (sign = "Capricorn")
+            //else if (sign = "Aquarius")
+            //else if (sign = "Pisces")
+
 
 
 
             
-
-            
-
 
 
 
@@ -72,24 +80,22 @@ namespace CG_6_5_Zodiac
             Console.ReadLine();
         }
 
-        //private static string Zodiac(DateTime userBirthdate)
-        //{
-            
+        private static string Zodiac(string birthMonth, int birthDay)
+        {
 
-        //    //string birthMonth = userBirthdate.ToString("MM");
-        //    //string birthDay = userBirthdate.ToString("dd");
-        //    //int birthMonthInt = int.Parse(birthMonth);
-        //    //int birthDayInt = int.Parse(birthDay);
+            if (birthMonth == "Mar" && birthDay >= 21 || birthMonth == "Apr" && birthDay >= 01 || birthDay <= 19)
+            {
+               string fortuneAries = "Your Zodiac Sign is Aries. \n Fortune: You will trip on your own shoelace tomorrow at Noon.";
+                return fortuneAries;
 
-        //    if ()
-        //    {
+            }
 
-        //    }
+            else if ()
+            {
 
-            
+            }
 
-        //}
-
+          
 
 
 
@@ -97,5 +103,6 @@ namespace CG_6_5_Zodiac
 
 
 
-    }
+
+        }
 }
